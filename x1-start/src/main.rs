@@ -15,6 +15,12 @@ fn main() {
     println!("This will print single quote \' and this double quote \"");
     println!("This will print only one back slash \\");
     println!("\n doing {2} from {1} years and i {0} it", "love", 1.5, "programming");
+    
+    // comment
+    
+    /*
+    Multiple lines
+    */
 
     println!("{language} is a system programming language whick is cool to {activity} in.", activity = "Code", language = "Rust");
 
@@ -22,10 +28,5 @@ fn main() {
 
 }
 
-// comment
-
-/*
-Multiple lines
-*/
 
 

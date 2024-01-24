@@ -70,5 +70,4 @@ fn main() {
     let c2: char = '😻';
     println!("The value of c1 is: {}", c1);
     println!("The value of c2 is: {}", c2);
-    
 }
