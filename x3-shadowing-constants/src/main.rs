@@ -45,12 +45,12 @@ fn main() {
     println!("The value of r outside the block is: {}", r); // 65
     // but if we remove the let keyword from the r inside the block, the value of r outside the block will be 32
     // because the r inside the block is a new variable that shadows the r outside the block
-    let mut r = 65;
+    let mut f = 60;
     {
-        r = 32; // let removed
-        println!("2 The value of r inside the block is: {}", r); // 32
+        f = 33; // let removed
+        println!("2 The value of f inside the block is: {}", f); // 33
     }
-    println!("2 The value of r outside the block is: {}", r); // 32
+    println!("2 The value of f outside the block is: {}", f); // 33
 
     // Constants
     // are always immutable
