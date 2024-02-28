@@ -1,6 +1,6 @@
 ## O'Reilly Rust course
 
-This repository contains the code for the [O'Reilly Rust course](https://www.oreilly.com/videos/rust-programming-masterclass/9781804612187/).
+This repository contains the code for the [O'Reilly Rust course](https://www.oreilly.com/videos/rust-programming-masterclass/9781804612187/) by Dr. Nouman Azam.
 
 ## How to run the code
 
