@@ -16,7 +16,7 @@ fn main() {
     let n3 = n1 as f32 + n2; // need to convert n1 to f32 to add with n2 becouse n2 is a float number and rust don't allow to add float with integer
     println!("n3: {}", n3);
 
-    // shadowing
+    // SHADOWING
     // is when you declare a new variable with the same name as a previous variable and the new variable shadows the previous variable
     // the first variable is beeing shadowed by the second, which means that the second variable's value is what the program sees 
 
